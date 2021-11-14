@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+   padding: 0%; 
+   margin: 0%;
+   
+}
+nav.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+
+button.btn {
+    margin-top: 40px;
+    margin-right: 10px;
+    width: 75px;
+    height: 37px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 10px;
+    margin-right: 30px;
+
+}
+.bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.418)), url(./net_bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px
+
+}
+
+h5{ 
+    font-size: 25px;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    
+}
+.subbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.int{
+    padding: 22px;
+    padding-right: 300px;
+    font-size: 16px;
+    border: none;
+    
+}
+.smallone{
+    font-size: 25px;
+    font-weight: 420px;
+    color: white;
+    width: 200px;
+    background-color: red;
+    border: none;
+    border-left: 2px solid rgb(51, 50, 50);
+
+}
+footer.bag{
+    background-color: rgb(0, 0, 0);
+    width: 100wh;
+    height: 100wh;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+hr{
+    height: 8px;
+    background-color: rgb(32, 31, 31);
+    border: none;
+    margin-bottom: 10px;
+    margin: 0;
+}
+p.question{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 160px;
+    margin-top: 50px;
+    display: flex;
+    color: rgb(153, 152, 152);
+    
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(114, 112, 112); 
+}
+.one a{
+    color: rgb(153, 152, 152);
+    font-size: small;
+    text-decoration: none;   
+}
+.net{
+    margin-top: 40px;
+    font-size: small;
+}
+.two a{
+    color: rgb(153, 152, 152);
+    font-size: small;
+    text-decoration: none;   
+}
+.three a{
+    color: rgb(153, 152, 152);
+    font-size: small;
+    text-decoration: none;   
+}
+.four a{
+    color: rgb(153, 152, 152);
+    font-size: small;
+    text-decoration: none;   
+}

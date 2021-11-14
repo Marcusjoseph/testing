@@ -1,0 +1,19 @@
+@media (min-width: 472px) and (max-width: 637px){
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (min-width: 472px) and (max-width: 637px){
+    .subbutton{
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 472px) and (min-width: 637px){
+    .container{
+        display: block;
+        justify-content: center;
+    }
+}
